@@ -1,0 +1,94 @@
+#container{
+    display:grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
+.Image1{
+    width:100%;
+    /* height: 500px; */
+    margin: auto;
+   
+}
+
+.logo{
+    width:75%;
+    /* text-align: center; */
+    margin: auto;
+
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 0;
+}
+.formContainer h1{
+  text-align:center;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formContainer h4{
+    text-align: center;
+    font-size: 22px;
+    margin-top:0;
+}
+
+.formContainer input{
+    width: 100%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    padding: 7px 0;
+}
+.formContainer .submitBtn{
+    width:100%;
+    font-size: 28px;
+    padding: 7px 0;
+    background-color: black;
+    color:white;
+    margin-top:20px
+}
+
+#countryCode{
+    height:100%;
+    outline:none;
+    border:none;
+ }
+ .mob{
+    outline:none;
+    border:none;
+ }
+
+ #emailSpan {
+    background: transparent;
+
+    text-align: right;
+}
+
+#mobSpan{
+    width: 302px;
+}
+
+
+
+@media screen and (min-device-width: 481px) and (max-device-width:700px) { 
+    #container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+  .Image1{
+    width:70%;
+    margin-left:15%;
+  } 
+    
+    
+}
+@media only screen and (max-device-width: 480px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+   
+}
+
+
+

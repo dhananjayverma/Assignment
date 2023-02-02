@@ -1,0 +1,20 @@
+ #thank-page{
+    width:900px;
+    height: 250px;
+    margin:50px;
+    /* outline: solid 1px black; */
+  } 
+
+
+  p{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+@media only screen and (max-device-width: 480px) {
+    #thank-page p{
+        font-size: 10px;
+        
+    }
+ 
+}
